@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Task1</string>
+    <string name="yellow">Yellow</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="colour">Not clicked yet</string>
+    <string name="hindi">हिंदी</string>
+    <string name="english">English</string>
+    <string name="switch_theme">Switch Theme Layout</string>
 </resources>

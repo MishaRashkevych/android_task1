@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">अभ्यास 1</string>
+    <string name="yellow">पीला</string>
+    <string name="red">लाल</string>
+    <string name="green">हरा</string>
+    <string name="colour">अभी तक क्लिक नहीं किया गया</string>
+    <string name="hindi">हिंदी</string>
+    <string name="english">English</string>
+    <string name="switch_theme">थीम स्विच करें</string>
+</resources>
