@@ -23,17 +23,17 @@ class MainActivity : AppCompatActivity() {
         val btnEnglish = findViewById<Button>(R.id.btnEnglish)
 
         redColourSelectorView.setOnClickListener {
-            colorDetectorView.text = redColourSelectorView.background.toString()
+            colorDetectorView.text = redColourSelectorView.text.toString() + getString(R.string.was_clicked)
             colorDetectorView.background = redColourSelectorView.background
         }
 
         yellowColourSelectorView.setOnClickListener {
-            colorDetectorView.text = yellowColourSelectorView.background.toString()
+            colorDetectorView.text = yellowColourSelectorView.text.toString() + getString(R.string.was_clicked)
             colorDetectorView.background = yellowColourSelectorView.background
         }
 
         greenColourSelectorView.setOnClickListener {
-            colorDetectorView.text = greenColourSelectorView.background.toString()
+            colorDetectorView.text = greenColourSelectorView.text.toString() + getString(R.string.was_clicked)
             colorDetectorView.background = greenColourSelectorView.background
         }
 
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
         btnEnglish.setOnClickListener{
             val config = resources.configuration
-            val locale = Locale("hi")
+            val locale = Locale("en")
             Locale.setDefault(locale)
             config.setLocale(locale)
             resources.updateConfiguration(config, resources.displayMetrics)
